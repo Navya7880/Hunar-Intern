@@ -1,0 +1,45 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2c3e50;
+    padding: 20px;
+    color: black;
+    text-align: center;
+}
+
+pav {
+    background-color: #34495e;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+pav a {
+    padding: 14px 20px;
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+pav a:hover {
+    background-color: #1abc9c;
+}
+
+.container {
+    padding: 20px;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
